@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>PinkyStudy 💗 | Toko Alat Tulis & Jasa Daftar Pustaka</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Quicksand:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Toast -->
+<div id="toastContainer" class="toast-container"></div>
+<!-- Modal -->
+<div id="modalContainer" class="modal-container"></div>
+
+<!-- TOPBAR Desktop -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#/" data-link class="brand">
+      <span class="brand-flower">🌸</span>
+      <span class="brand-name">PinkyStudy</span>
+    </a>
+    <nav class="topnav" id="topnav">
+      <a href="#/" data-link data-page="home" class="nav-pill">🏠 Beranda</a>
+      <a href="#/jualan" data-link data-page="jualan" class="nav-pill">🛍️ Jualan</a>
+      <a href="#/keranjang" data-link data-page="keranjang" class="nav-pill">🛒 Keranjang <span class="badge" id="badgeTop">0</span></a>
+      <a href="#/pesanan" data-link data-page="pesanan" class="nav-pill">📦 Pesanan</a>
+      <a href="#/profil" data-link data-page="profil" class="nav-pill">👤 Profil</a>
+      <a href="#/bantuan" data-link data-page="bantuan" class="nav-pill">💬 Bantuan</a>
+      <a href="#/admin" data-link data-page="admin" class="nav-pill admin-only" id="adminNav">🛡️ Admin</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Main -->
+<main id="app"></main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h3>🌸 PinkyStudy</h3>
+      <p>Belajar lebih rapi, tugas lebih mudah. Toko alat tulis & jasa daftar pustaka untuk pelajar Indonesia.</p>
+      <div class="socials">
+        <button class="soc-btn" data-social="wa" title="WhatsApp">💬</button>
+        <button class="soc-btn" data-social="ig" title="Instagram">📷</button>
+        <button class="soc-btn" data-social="tt" title="TikTok">🎵</button>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <a href="#/" data-link>Beranda</a>
+      <a href="#/jualan" data-link>Jualan</a>
+      <a href="#/pesanan" data-link>Pesanan</a>
+      <a href="#/profil" data-link>Profil</a>
+    </div>
+    <div class="footer-col">
+      <h4>Bantuan</h4>
+      <a href="#/bantuan" data-link>FAQ</a>
+      <a href="#" data-action="wa">WhatsApp Admin</a>
+      <a href="#/bantuan" data-link>Info Pemesanan</a>
+    </div>
+    <div class="footer-col">
+      <h4>Info Penting</h4>
+      <p style="font-size:.82rem;">💗 Harga berdasarkan kelipatan<br>📚 Daftar pustaka: 10 referensi = Rp7.000<br>📎 File wajib di-upload<br>⏰ Maksimal H-1<br>💌 Hasil dikirim via email</p>
+    </div>
+  </div>
+  <div class="footer-copy">© 2025 PinkyStudy 💗 Dibuat dengan cinta untuk pelajar Indonesia.</div>
+</footer>
+
+<!-- BOTTOM NAV Mobile -->
+<nav class="bottomnav">
+  <a href="#/" data-link data-page="home" class="bnav">
+    <span class="bnav-icon">🏠</span><span class="bnav-label">Beranda</span>
+  </a>
+  <a href="#/jualan" data-link data-page="jualan" class="bnav">
+    <span class="bnav-icon">🛍️</span><span class="bnav-label">Jualan</span>
+  </a>
+  <a href="#/keranjang" data-link data-page="keranjang" class="bnav">
+    <span class="bnav-icon">🛒<span class="badge" id="badgeBottom">0</span></span><span class="bnav-label">Keranjang</span>
+  </a>
+  <a href="#/pesanan" data-link data-page="pesanan" class="bnav">
+    <span class="bnav-icon">📦</span><span class="bnav-label">Pesanan</span>
+  </a>
+  <a href="#/profil" data-link data-page="profil" class="bnav">
+    <span class="bnav-icon">👤</span><span class="bnav-label">Profil</span>
+  </a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
